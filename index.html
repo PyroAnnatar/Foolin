@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cookieArea">
+        <div id="cookie" onClick="cookieClick(1)"></div>
+        <p>Cookies</p>
+        <span id="cookies">0</span>
+      </div>
+    </main>
+
+    <aside>
+      <button onClick="buyCursor()">
+        Cursors: <span id="cursors">0</span><br />
+        Cost: <span id="cursorCost">10</span>
+      </button>
+      <button onclick="megaCursor()">
+        Mega Cursors <br /><span id="megaCursorCostV">55 Cookies</span>
+      </button>
+    </aside>
+
+    <footer>
+      <button onClick="save()">Save</button>
+      <button onClick="load()">Load</button>
+      <span>Cookies per Second </span><span id="cookiesPerSecond"></span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

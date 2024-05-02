@@ -1,0 +1,62 @@
+body {
+  background-color: #a39d9d;
+}
+
+footer {
+  position: fixed;
+  top: 5px;
+}
+
+#cookiesPerSecond {
+  background-color: rgb(202, 194, 194);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  top: 0;
+  left: 0;
+}
+
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+}
+
+aside button {
+  padding: 20px;
+  margin-bottom: 5px;
+  box-shadow: inset 0 0 15px 0 rgb(17, 17, 17);
+  border-radius: 15px;
+  background-color: rgb(138, 158, 152);
+}
+
+#cookie {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: brown;
+  transition: all 0.5s ease-in-out;
+}
+
+#cookie:hover {
+  box-shadow: inset 0 0 15px rgb(85, 85, 85);
+}
+
+#cookie:active {
+  transition: all 0.2s;
+  box-shadow: inset 0 0 15px rgb(44, 44, 44);
+}
+
+.cookieArea {
+  text-align: center;
+}
